@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit|Righteous&display=swap');
+@import 'vars';
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+
+html {
+  background: white;
+}
+
+//specific buttons
+html {
+  font-size: 8px;
+
+  @include media-breakpoint-up(md) {
+    font-size: 10px;
+  }
+}
+
+.btn {
+  letter-spacing: 0.04em;
+}
+
+input::placeholder {
+  font-style: italic;
+}
+
+.display {
+
+  &-1,
+  &-2,
+  &-3,
+  &-4 {
+    font-family: $font-family-display;
+    color: inherit;
+    line-height: 52px;
+    margin: $headings-margin-bottom 0 0;
+  }
+
+  &-1,
+  &-2 {
+    line-height: 78px;
+  }
+
+  // @include media-breakpoint-down(sm){
+  //   &-1 {
+  //     font-size: $display2-size;
+  //   }
+  //   &-2 {
+  //     font-size: $
+  //   }
+  // }
+  font-size:$h5-font-size;
+  line-height: 26px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin: $headings-margin-bottom 0 0;
+  line-height: 52px;
+}
+
+h5,
+h6,
+.h5,
+.h6 {
+  line-height: 26px;
+}
+
+h6 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+small,
+.small {
+  line-height: 17.33px;
+}
+
+// .text-danger {
+//   color: $danger-bright !important;
+// }
+
+// .text-success {
+//   color: $success-bright !important;
+// }
+
+// .text-warning {
+//   color: $warning-bright !important;
+// }
+
+// .text-disabled {
+//   color: $gray-500 !important;
+// }
+
+// .home {
+//   color: $dark;
+
+
+//   &-carousel {
+//     height: 410px;
+//     margin: 44px 0;
+//     overflow: hidden;
+//     padding: 0;
+//     position: relative;
+//     z-index: 5;
+//     box-shadow: 0 1px 10px rgba(255, 255, 255, 0.5);
+
+//     .carousel-inner {
+//       height: 100%;
+//     }
+
+//     .carousel-control-prev,
+//     .carousel-control-next {
+//       z-index: 10;
+//     }
+
+
+//     // @include media-breakpoint-up(xl) { ... }
+//   }
+
+//   &-slide {
+//     height: 100%;
+
+//     .carousel-caption {
+//       left: 0;
+//       top: 0;
+//       right: 0;
+//       bottom: 0;
+//       padding: 0;
+//       text-align: left;
+//       box-shadow: 0 0 20px inset rgba(0, 0, 0, 0.5)
+//     }
+
+
+
+//   }
+
+// }
+
+// .page {
+//   &-header {
+//     margin: 42px 0;
+//   }
+// }
+
+
+// .counter {
+//   span {
+//     display: block;
+//   }
+// }
+
+// .btn {
+//   &-tag {
+//     border-radius: 50px;
+//     font-weight: normal;
+//     padding: 3px 10px 3px 3px;
+
+//     .badge {
+//       top: auto;
+//       border-radius: 50px;
+//       font-size: 1.6rem;
+//       font-weight: bold;
+//       margin-right: 3px;
+//       padding: 0.5rem 0.7rem;
+//       vertical-align: middle;
+//     }
+//   }
+
+//   &-fld {
+//     background: transparent;
+//     margin: 0 0 0 5px;
+//     border: none;
+//   }
+
+//   &-danger {
+//     background-color: $danger-bright;
+//     color: #fff;
+
+//     &:hover {
+//       background-color: darken($danger-bright, 10);
+//       color: #fff;
+//     }
+//   }
+// }
+
+// .vdp-datepicker {
+//   .form-control {
+//     background: #fff;
+//   }
+// }
+
+// .table {
+//   thead {
+//     th {
+//       border-top: none;
+//     }
+//   }
+// }
+
+// .card-title {
+//   margin-top: 0 !important;
+// }
